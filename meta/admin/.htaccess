@@ -1,0 +1,5 @@
+# Chan truy cap truc tiep vao du lieu Meta Admin
+<FilesMatch "\.(sqlite|key)$">
+    Require all denied
+</FilesMatch>
+RedirectMatch 403 ^/meta/admin/data/.*$
